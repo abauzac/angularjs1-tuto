@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "angular"
+  ],
+  "settings": {
+    "angular": 1
+  },
+
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "angular/no-service-method": 0,
+    "angular/controller-as": 0,
+    "semi":"off",
+    "prefer-const":"off"
+  },
+  "globals": {
+    "module": true,
+    "angular": true,
+    "inject": true
+  }
+}

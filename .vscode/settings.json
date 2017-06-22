@@ -1,0 +1,10 @@
+{
+    "eslint.enable": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.workingDirectories": [
+        "./src"
+    ],
+    "eslint.options": {
+        "extensions": [".js"]
+    }
+}
